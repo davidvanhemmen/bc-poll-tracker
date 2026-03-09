@@ -1,0 +1,86 @@
+[
+  {
+    "date": "2025-05-03",
+    "firm": "Liaison Strategies",
+    "NDP": 45,
+    "CON": 47,
+    "GRN": 7,
+    "OTH": 1,
+    "n": 800,
+    "method": "IVR",
+    "url": "https://press.liaisonstrategies.ca/bc-conservatives-lead-ndp-47-to-45/",
+    "notes": "Conducted May 2-4, 2025 for NEPMCC"
+  },
+  {
+    "date": "2025-10-05",
+    "firm": "Cardinal Research",
+    "NDP": 34,
+    "CON": 33,
+    "GRN": 8,
+    "OTH": 3,
+    "n": 1088,
+    "method": "IVR",
+    "url": "https://cardinalresearch.ca/?research=british-columbia-provincial-poll-oct-2025",
+    "notes": "20% undecided; OneBC at 3%"
+  },
+  {
+    "date": "2025-10-06",
+    "firm": "Cardinal Research",
+    "NDP": 34,
+    "CON": 33,
+    "GRN": 8,
+    "OTH": 25,
+    "n": null,
+    "method": null,
+    "url": "https://cardinalresearch.ca/",
+    "notes": "OneBC at 3%, remainder undecided/other"
+  },
+  {
+    "date": "2025-10-06",
+    "firm": "Cardinal Research",
+    "NDP": 34,
+    "CON": 33,
+    "GRN": 8,
+    "OTH": 25,
+    "n": null,
+    "method": null,
+    "url": "https://cardinalresearch.ca/all-research/",
+    "notes": "OneBC at 3%, remaining percentage likely undecided"
+  },
+  {
+    "date": "2025-12-12",
+    "firm": "Pallas Data",
+    "NDP": 44,
+    "CON": 39,
+    "GRN": 9,
+    "OTH": 7,
+    "n": 923,
+    "method": "IVR",
+    "url": "https://pallas-data.ca/2025/12/22/pallas-british-columbia-poll-ndp-44-conservative-39-greens-9-onebc-7/",
+    "notes": "OneBC at 7%"
+  },
+  {
+    "date": "2026-02-13",
+    "firm": "Pallas Data",
+    "NDP": 42,
+    "CON": 37,
+    "GRN": 13,
+    "OTH": 8,
+    "n": 988,
+    "method": "IVR",
+    "url": "https://pallas-data.ca/2026/02/19/pallas-british-columbia-poll-ndp-42-conservative-37-green-13/",
+    "notes": "OneBC at 7%, other 1%"
+  },
+  {
+    "date": "2026-02-26",
+    "firm": "Pallas Data",
+    "NDP": 42,
+    "CON": 40,
+    "GRN": 11,
+    "OTH": 7,
+    "n": 1256,
+    "method": "IVR",
+    "url": "https://pallas-data.ca/2026/03/02/pallas-british-columbia-poll-ndp-42-conservative-40-elliott-leads/",
+    "notes": "OneBC at 5%. Statistical tie within margin of error."
+  }
+]
