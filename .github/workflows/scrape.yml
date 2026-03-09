@@ -1,4 +1,4 @@
-name: BC Poll Scraper
+﻿name: BC Poll Scraper
 
 on:
   schedule:
@@ -35,10 +35,3 @@ jobs:
           git add polls.json .seen_urls.json
           git diff --staged --quiet || git commit -m "chore: update polls $(date +%Y-%m-%d)"
           git push
-```
-
-Save and close Notepad, then run:
-```
-git add .
-git commit -m "Add GitHub Actions workflow"
-git push
