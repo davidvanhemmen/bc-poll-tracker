@@ -1,0 +1,44 @@
+name: BC Poll Scraper
+
+on:
+  schedule:
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 anthropic
+
+      - name: Run scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python bc_poll_scraper.py
+
+      - name: Commit updated polls.json if changed
+        run: |
+          git config user.name  "BC Poll Bot"
+          git config user.email "bot@bc-poll-tracker.ca"
+          git add polls.json .seen_urls.json
+          git diff --staged --quiet || git commit -m "chore: update polls $(date +%Y-%m-%d)"
+          git push
+```
+
+Save and close Notepad, then run:
+```
+git add .
+git commit -m "Add GitHub Actions workflow"
+git push
